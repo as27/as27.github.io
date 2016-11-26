@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go und die Welt</title>
+    <link>https://as27.github.io/categories/coding-da-vinci/index.xml</link>
+    <description>Recent content on Go und die Welt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <atom:link href="https://as27.github.io/categories/coding-da-vinci/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coding da Vinci: Familiennamen</title>
+      <link>https://as27.github.io/blog/2016/11/26/coding-da-vinci-familiennamen/</link>
+      <pubDate>Sat, 26 Nov 2016 11:28:44 +0100</pubDate>
+      
+      <guid>https://as27.github.io/blog/2016/11/26/coding-da-vinci-familiennamen/</guid>
+      <description>&lt;p&gt;Ein Projekt von Coding da Vinci Nord 2016 mit, meiner Meinung nach, viel zuwenig Aufmerksamkeit ist das &lt;a href=&#34;http://dinkla.net/de/programming/javascript-familiennamen.html&#34;&gt;Familiennamen Projekt&lt;/a&gt; von Jörn Dinkla. Technisch dürfte dieses Projekt sicher um einiges anspruchsvoller sein als der Gewinner des Technik Preises.&lt;/p&gt;
+
+&lt;p&gt;Das Projekt beschäftigt sich mit Familiennamen. Dabei wird der einzelne Name auch nach ähnlichen Ausdrücken untersucht. Die Ausgabe kann entweder auf einer Karte oder über einen Graph ausgegeben werden. Definitiv ein spannendes Projekt, welches technisch auch toll umgesetzt wurde.&lt;/p&gt;
+
+&lt;p&gt;Deshalb möchte ich an der Stelle unbedingt auf dieses Projekt noch einmal aufmerksam machen. Hier die Links zum Projekt:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dinkla.net/de/programming/javascript-familiennamen.html&#34;&gt;Familiennamen Projekt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackdash.org/projects/57dd5ce5d9284f016c04745b&#34;&gt;Projekt im Hackdash&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jdinkla/codingdavinci-familiennamen&#34;&gt;Sourcecode auf github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
