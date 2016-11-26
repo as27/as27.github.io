@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go lycka go</title>
-    <link>http://lyckade.github.io/categories/pattern/index.xml</link>
-    <description>Recent content on Go lycka go</description>
+    <title>Go und die Welt</title>
+    <link>http://as27.github.io/categories/pattern/index.xml</link>
+    <description>Recent content on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="http://lyckade.github.io/categories/pattern/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://as27.github.io/categories/pattern/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Golang Decorator Pattern</title>
-      <link>http://lyckade.github.io/blog/2016/05/19/golang-decorator-pattern/</link>
+      <link>http://as27.github.io/blog/2016/05/19/golang-decorator-pattern/</link>
       <pubDate>Thu, 19 May 2016 10:58:32 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/19/golang-decorator-pattern/</guid>
+      <guid>http://as27.github.io/blog/2016/05/19/golang-decorator-pattern/</guid>
       <description>
 
 &lt;p&gt;Dieses Pattern wurde auf der GopherCon 2015 in Denver vorgestellt. Hier die Ursprünglichen  &lt;a href=&#34;https://github.com/gophercon/2015-talks/blob/master/Tom%C3%A1s%20Senart%20-%20Embrace%20the%20Interface/ETI.pdf&#34;&gt;Slides zu Embrace the Interface&lt;/a&gt;. Der Vortrag konzentriet sich für meinen Geschmack zuwenig auf die wirklich wesentlichen Punkte.&lt;/p&gt;

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go lycka go</title>
-    <link>http://lyckade.github.io/categories/tests/index.xml</link>
-    <description>Recent content on Go lycka go</description>
+    <title>Go und die Welt</title>
+    <link>http://as27.github.io/categories/tests/index.xml</link>
+    <description>Recent content on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="http://lyckade.github.io/categories/tests/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://as27.github.io/categories/tests/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Client tests in Golang mit httptest</title>
-      <link>http://lyckade.github.io/blog/2016/05/17/client-tests-in-golang-mit-httptest/</link>
+      <link>http://as27.github.io/blog/2016/05/17/client-tests-in-golang-mit-httptest/</link>
       <pubDate>Tue, 17 May 2016 10:07:30 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/17/client-tests-in-golang-mit-httptest/</guid>
+      <guid>http://as27.github.io/blog/2016/05/17/client-tests-in-golang-mit-httptest/</guid>
       <description>&lt;p&gt;Bei der Erstellung von Microservices mittels eine REST API gibt es bei der Kommunikation zwischen zwei Diensten neben dem Empfänger (Server) immer auch eine sendende Seite (Client).&lt;/p&gt;
 
 &lt;p&gt;Für das Testen von http Anfragen an einen Server bietet das &lt;a href=&#34;https://golang.org/pkg/net/http/httptest/#Server&#34;&gt;httptest Packet&lt;/a&gt; einen eigenen Testserver an. Mit der Funktion &lt;code&gt;NewServer()&lt;/code&gt; lässt sich der Testserver starten. Dabei wird eine Referenz auf eine Server instanz zurück gegeben.&lt;/p&gt;

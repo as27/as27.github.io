@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go lycka go</title>
-    <link>http://lyckade.github.io/categories/gophercon/index.xml</link>
-    <description>Recent content on Go lycka go</description>
+    <title>Go und die Welt</title>
+    <link>http://as27.github.io/categories/gophercon/index.xml</link>
+    <description>Recent content on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="http://lyckade.github.io/categories/gophercon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://as27.github.io/categories/gophercon/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Link: GopherCon 2015</title>
-      <link>http://lyckade.github.io/blog/2016/05/18/link-gophercon-2015/</link>
+      <link>http://as27.github.io/blog/2016/05/18/link-gophercon-2015/</link>
       <pubDate>Wed, 18 May 2016 19:30:23 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/18/link-gophercon-2015/</guid>
+      <guid>http://as27.github.io/blog/2016/05/18/link-gophercon-2015/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.golang.org/gophercon2015&#34;&gt;https://blog.golang.org/gophercon2015&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

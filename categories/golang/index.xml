@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go lycka go</title>
-    <link>http://lyckade.github.io/categories/golang/index.xml</link>
-    <description>Recent content on Go lycka go</description>
+    <title>Go und die Welt</title>
+    <link>http://as27.github.io/categories/golang/index.xml</link>
+    <description>Recent content on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="http://lyckade.github.io/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://as27.github.io/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Vererbung in Go</title>
-      <link>http://lyckade.github.io/blog/2016/06/05/vererbung-in-go/</link>
+      <link>http://as27.github.io/blog/2016/06/05/vererbung-in-go/</link>
       <pubDate>Sun, 05 Jun 2016 19:05:37 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/06/05/vererbung-in-go/</guid>
+      <guid>http://as27.github.io/blog/2016/06/05/vererbung-in-go/</guid>
       <description>&lt;p&gt;Es gibt eine Klasse, welche als Basis für eine Neue Klasse dienen soll. Für dieses Beispiel &lt;code&gt;Car&lt;/code&gt;. Über eine Funktion wird ein Pointer auf eine Instanz erzeugt:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;type Car struct {
@@ -54,10 +54,10 @@ func NewAudi() *Audi {
     
     <item>
       <title>bufio ein Reader und Writer für den Playground</title>
-      <link>http://lyckade.github.io/blog/2016/06/05/bufio-ein-reader-und-writer-f%C3%BCr-den-playground/</link>
+      <link>http://as27.github.io/blog/2016/06/05/bufio-ein-reader-und-writer-f%C3%BCr-den-playground/</link>
       <pubDate>Sun, 05 Jun 2016 18:31:29 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/06/05/bufio-ein-reader-und-writer-f%C3%BCr-den-playground/</guid>
+      <guid>http://as27.github.io/blog/2016/06/05/bufio-ein-reader-und-writer-f%C3%BCr-den-playground/</guid>
       <description>&lt;p&gt;Für einfache Tests benötigt man öfters einen Writer, welcher den Output an die Konsole schickt. Hierfür eignet sich sehr gut das bufio Packet in Verbindung mit os.&lt;/p&gt;
 
 &lt;p&gt;Das notwendige Beispiel befindet sich sogar schon direkt in der Dokumentation: &lt;a href=&#34;https://godoc.org/bufio#example-Writer&#34;&gt;https://godoc.org/bufio#example-Writer&lt;/a&gt;&lt;/p&gt;
@@ -76,10 +76,10 @@ w.Flush() // Don&#39;t forget to flush!
     
     <item>
       <title>Installation von Golang auf dem Raspberry Pi</title>
-      <link>http://lyckade.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</link>
+      <link>http://as27.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</link>
       <pubDate>Sat, 28 May 2016 09:59:35 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</guid>
+      <guid>http://as27.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</guid>
       <description>&lt;p&gt;Ich war ziemlich schockiert, als ich festgestellt habe, dass ich über &lt;code&gt;apt-get&lt;/code&gt; nur Version 1.3 von Golang bekommen habe. Ich bin eigentlich davon ausgegangen, dass ich zumindest die fast schon ein Jahr alte Version 1.5 installiert hatte.&lt;/p&gt;
 
 &lt;p&gt;Jedoch warum sollte es an der Stelle anders sein. Debian benötigt halt eine gewisse Zeit, bis die Packete für aktuellere Versionen freigegeben werden. Warum sollte das bei den Golang Packeten anders sein.&lt;/p&gt;
@@ -104,10 +104,10 @@ export PATH=&amp;quot;$PATH:$GOROOT/bin&amp;quot;
     
     <item>
       <title>Golang Decorator Pattern</title>
-      <link>http://lyckade.github.io/blog/2016/05/19/golang-decorator-pattern/</link>
+      <link>http://as27.github.io/blog/2016/05/19/golang-decorator-pattern/</link>
       <pubDate>Thu, 19 May 2016 10:58:32 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/19/golang-decorator-pattern/</guid>
+      <guid>http://as27.github.io/blog/2016/05/19/golang-decorator-pattern/</guid>
       <description>
 
 &lt;p&gt;Dieses Pattern wurde auf der GopherCon 2015 in Denver vorgestellt. Hier die Ursprünglichen  &lt;a href=&#34;https://github.com/gophercon/2015-talks/blob/master/Tom%C3%A1s%20Senart%20-%20Embrace%20the%20Interface/ETI.pdf&#34;&gt;Slides zu Embrace the Interface&lt;/a&gt;. Der Vortrag konzentriet sich für meinen Geschmack zuwenig auf die wirklich wesentlichen Punkte.&lt;/p&gt;
@@ -193,10 +193,10 @@ func myDecorator(d string) Decorator {
     
     <item>
       <title>Link: GopherCon 2015</title>
-      <link>http://lyckade.github.io/blog/2016/05/18/link-gophercon-2015/</link>
+      <link>http://as27.github.io/blog/2016/05/18/link-gophercon-2015/</link>
       <pubDate>Wed, 18 May 2016 19:30:23 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/18/link-gophercon-2015/</guid>
+      <guid>http://as27.github.io/blog/2016/05/18/link-gophercon-2015/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.golang.org/gophercon2015&#34;&gt;https://blog.golang.org/gophercon2015&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -209,10 +209,10 @@ func myDecorator(d string) Decorator {
     
     <item>
       <title>Tutorial über Model und View in einem REST Service</title>
-      <link>http://lyckade.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/</link>
+      <link>http://as27.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/</link>
       <pubDate>Tue, 17 May 2016 22:40:53 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/</guid>
+      <guid>http://as27.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://stevenwhite.com/building-a-rest-service-with-golang-2/&#34;&gt;http://stevenwhite.com/building-a-rest-service-with-golang-2/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -225,10 +225,10 @@ func myDecorator(d string) Decorator {
     
     <item>
       <title>Client tests in Golang mit httptest</title>
-      <link>http://lyckade.github.io/blog/2016/05/17/client-tests-in-golang-mit-httptest/</link>
+      <link>http://as27.github.io/blog/2016/05/17/client-tests-in-golang-mit-httptest/</link>
       <pubDate>Tue, 17 May 2016 10:07:30 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/17/client-tests-in-golang-mit-httptest/</guid>
+      <guid>http://as27.github.io/blog/2016/05/17/client-tests-in-golang-mit-httptest/</guid>
       <description>&lt;p&gt;Bei der Erstellung von Microservices mittels eine REST API gibt es bei der Kommunikation zwischen zwei Diensten neben dem Empfänger (Server) immer auch eine sendende Seite (Client).&lt;/p&gt;
 
 &lt;p&gt;Für das Testen von http Anfragen an einen Server bietet das &lt;a href=&#34;https://golang.org/pkg/net/http/httptest/#Server&#34;&gt;httptest Packet&lt;/a&gt; einen eigenen Testserver an. Mit der Funktion &lt;code&gt;NewServer()&lt;/code&gt; lässt sich der Testserver starten. Dabei wird eine Referenz auf eine Server instanz zurück gegeben.&lt;/p&gt;
@@ -276,10 +276,10 @@ func main(){
     
     <item>
       <title>Golang und die Zeit: Das magische Datum</title>
-      <link>http://lyckade.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</link>
+      <link>http://as27.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</link>
       <pubDate>Sun, 15 May 2016 15:37:02 +0200</pubDate>
       
-      <guid>http://lyckade.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</guid>
+      <guid>http://as27.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</guid>
       <description>
 
 &lt;p&gt;Die Dokumentation zu dem Packet time ist bezüglich der Formatierung des Datums nicht sehr ausführlich. Deshalb soll die fast schon geniale Logik kurz vorgestellt werden.&lt;/p&gt;
