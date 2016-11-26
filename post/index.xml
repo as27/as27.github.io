@@ -6,8 +6,38 @@
     <description>Recent content in Post-rsses on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Sat, 26 Nov 2016 11:28:44 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Nov 2016 16:04:16 +0100</lastBuildDate>
     <atom:link href="https://as27.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>OpenData Hamburg - Beteiligungsbericht</title>
+      <link>https://as27.github.io/blog/2016/11/26/opendata-hamburg---beteiligungsbericht/</link>
+      <pubDate>Sat, 26 Nov 2016 16:04:16 +0100</pubDate>
+      
+      <guid>https://as27.github.io/blog/2016/11/26/opendata-hamburg---beteiligungsbericht/</guid>
+      <description>&lt;p&gt;Meine nächsten privaten Projekte sollen ein wenig mehr aus dem Bereich OpenData kommen. Das ganze soll im Rahmen &lt;a href=&#34;http://codefor.de/hamburg/&#34;&gt;Code for Hamburg&lt;/a&gt; statt finden. Um an der Stelle auch GitHubPages nutzen zu können hab ich nun die Organisation &lt;a href=&#34;https://github.com/OpenDataHH&#34;&gt;OpenDataHH&lt;/a&gt; angelegt.&lt;/p&gt;
+
+&lt;p&gt;Ziel ist es dabei Daten aus dem &lt;a href=&#34;http://transparenz.hamburg.de/&#34;&gt;Transparenzportal Hamburg&lt;/a&gt; zu nutzen. Nach einer ersten Sichtung sind leider nicht allzuviele Dateien in guten Formaten vorhanden. Lediglich ein paar Dateien im XML Format konnte ich über die Suchmaske finden.&lt;/p&gt;
+
+&lt;p&gt;Diese Dateien beinhalten den &lt;a href=&#34;http://www.beteiligungsbericht.fb.hamburg.de/&#34;&gt;Beteiligungsbericht der Stadt Hamburg&lt;/a&gt;. Der Bericht ist bereits online vorhanden. D.h. an der Stelle ist nicht ganz so viel zu tun. Wobei die vorhandene Online Version ein paar Nachteile hat:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Es wird immer nur der aktuellste Datensatz dargestellt.&lt;/li&gt;
+&lt;li&gt;Die Unternehmensdaten sind immer nur für zwei Jahre in einem Bericht vorhanden.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Im Bericht sind auch verbundene Personen zu dem jeweiligen Unternehmen aufgeführt. Das schöne hierbei ist, dass es zu jeder Person eine interne ID gibt, welche die Person identifizieren soll. Zusätzlich ist im Titel angegeben, von welchen anderen Unternehmen die Person kommt. Hierüber lassen sich weitere spannende Auswertungen erstellen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wer hat die meisten Aufsichtsratposten?&lt;/li&gt;
+&lt;li&gt;Welche Firmen sind über welche Posten miteinander verwoben?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Im ersten Schritt wurde ein Go Packet (&lt;a href=&#34;https://github.com/OpenDataHH/GoBeteiligungsbericht&#34;&gt;GoBeiteiligungsbericht&lt;/a&gt;) erstellt, welches nur die Struktur des XML Dokumentes besitzt. Notwendige Tags wurden der Struktur hinzugefügt, sodass die XML Dateien nun per Standardpacket encoding/xml in Go eingelesen werden können.&lt;/p&gt;
+
+&lt;p&gt;Im nächsten Schritt soll ein einfaches Programm erstellt werden, welches Anhand der XML Datei viele einzelne JSON Dateien erzeugt, welche dann von einer Webapp z.B. in ember.js verwendet werden können.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Coding da Vinci: Familiennamen</title>
