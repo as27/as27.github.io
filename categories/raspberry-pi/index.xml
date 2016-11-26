@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go und die Welt</title>
-    <link>http://as27.github.io/categories/raspberry-pi/index.xml</link>
+    <link>https://as27.github.io/categories/raspberry-pi/index.xml</link>
     <description>Recent content on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="http://as27.github.io/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://as27.github.io/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installation von Golang auf dem Raspberry Pi</title>
-      <link>http://as27.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</link>
+      <link>https://as27.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</link>
       <pubDate>Sat, 28 May 2016 09:59:35 +0200</pubDate>
       
-      <guid>http://as27.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</guid>
+      <guid>https://as27.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</guid>
       <description>&lt;p&gt;Ich war ziemlich schockiert, als ich festgestellt habe, dass ich über &lt;code&gt;apt-get&lt;/code&gt; nur Version 1.3 von Golang bekommen habe. Ich bin eigentlich davon ausgegangen, dass ich zumindest die fast schon ein Jahr alte Version 1.5 installiert hatte.&lt;/p&gt;
 
 &lt;p&gt;Jedoch warum sollte es an der Stelle anders sein. Debian benötigt halt eine gewisse Zeit, bis die Packete für aktuellere Versionen freigegeben werden. Warum sollte das bei den Golang Packeten anders sein.&lt;/p&gt;

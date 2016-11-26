@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go und die Welt</title>
-    <link>http://as27.github.io/categories/time/index.xml</link>
+    <link>https://as27.github.io/categories/time/index.xml</link>
     <description>Recent content on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="http://as27.github.io/categories/time/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://as27.github.io/categories/time/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Golang und die Zeit: Das magische Datum</title>
-      <link>http://as27.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</link>
+      <link>https://as27.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</link>
       <pubDate>Sun, 15 May 2016 15:37:02 +0200</pubDate>
       
-      <guid>http://as27.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</guid>
+      <guid>https://as27.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</guid>
       <description>
 
 &lt;p&gt;Die Dokumentation zu dem Packet time ist bezüglich der Formatierung des Datums nicht sehr ausführlich. Deshalb soll die fast schon geniale Logik kurz vorgestellt werden.&lt;/p&gt;

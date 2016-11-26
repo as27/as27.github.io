@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go und die Welt</title>
-    <link>http://as27.github.io/categories/mvc-pattern/index.xml</link>
+    <link>https://as27.github.io/categories/mvc-pattern/index.xml</link>
     <description>Recent content on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="http://as27.github.io/categories/mvc-pattern/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://as27.github.io/categories/mvc-pattern/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tutorial über Model und View in einem REST Service</title>
-      <link>http://as27.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/</link>
+      <link>https://as27.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/</link>
       <pubDate>Tue, 17 May 2016 22:40:53 +0200</pubDate>
       
-      <guid>http://as27.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/</guid>
+      <guid>https://as27.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://stevenwhite.com/building-a-rest-service-with-golang-2/&#34;&gt;http://stevenwhite.com/building-a-rest-service-with-golang-2/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
