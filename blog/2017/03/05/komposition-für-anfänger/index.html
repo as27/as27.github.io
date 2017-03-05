@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>Tutorial über Model und View in einem REST Service &middot; Andreas Schröpfer</title>
+  <title>Komposition für Anfänger &middot; Andreas Schröpfer</title>
 
   
   <link rel="stylesheet" href="https://as27.github.io/css/poole.css">
@@ -29,8 +29,8 @@
   
   
 
-  <meta name="description" content="Interessanter Link zum Thmea REST und MVC Pattern.">
-  <meta name="keywords" content="golang,link,REST">
+  <meta name="description" content="Eine ganz einfache Beschreibung was Komposition eigentlich ist und wie diese eingesetzt werden kann.">
+  <meta name="keywords" content="">
 
 <link rel="stylesheet" href="https://as27.github.io/css/highlight/gruvbox-dark.css">
 <script src="https://as27.github.io/js/highlight.pack.js"></script>
@@ -81,19 +81,58 @@
 
 <div class="content container">
   <div class="post">
-    <h1 class="post-title">Tutorial über Model und View in einem REST Service</h1>
-    <span class="post-date">May 17, 2016 &middot; 1 minute read &middot; <a href="https://as27.github.io/blog/2016/05/17/tutorial-%C3%BCber-model-und-view-in-einem-rest-service/#disqus_thread">Comments</a>
+    <h1 class="post-title">Komposition für Anfänger</h1>
+    <span class="post-date">Mar 5, 2017 &middot; 2 minute read &middot; <a href="https://as27.github.io/blog/2017/03/05/komposition-f%C3%BCr-anf%C3%A4nger/#disqus_thread">Comments</a>
     
     <br/>
-    <a class="label" href="https://as27.github.io/categories/golang">golang</a><a class="label" href="https://as27.github.io/categories/notes">notes</a><a class="label" href="https://as27.github.io/categories/link">link</a><a class="label" href="https://as27.github.io/categories/mvc-pattern">MVC Pattern</a><a class="label" href="https://as27.github.io/categories/rest">REST</a>
+    <a class="label" href="https://as27.github.io/categories/golang">golang</a><a class="label" href="https://as27.github.io/categories/komposition">komposition</a>
     </span>
-    <ul>
-<li><a href="http://stevenwhite.com/building-a-rest-service-with-golang-2/">http://stevenwhite.com/building-a-rest-service-with-golang-2/</a></li>
-</ul>
+    <p>Ein ganz einfaches Beispiel soll zeigen, was alles mit der Komposition in Go möglich ist. Nehmen wir mal folgendes Beispiel an.</p>
 
-<p>Steven White beschreibt in seinem Tutorial, wie man einen einfachen Web Server mit Go umsetzt. Dabei gliedert er seinen Code in Model und Controller. Alle Models werden dabei in einem Packet <code>models</code> und die Controller in einem Packet <code>controller</code> umgesetzt.</p>
+<p>Es gibt einen Typ A, welches eine Methode Print() besitzt. Typ B hat in seiner Definition auf Typ A im Bauch. Wäre Go nun objekt-orientiert, würde man auch sagen, B erbt alles von A. Dadurch kann eine Instanz von B eigentlich auch alles was A kann.</p>
 
-<p>Dieses Pattern ist übersichtlich und führt zu einem strukturierten Code.</p>
+<p>Diese Erkenntnis ist erstmal nichts besonderes. Auf die gleiche Weise wie B definieren wir nun Typ C. Für Typ C ist nun aber die Funktion Print() nicht so wie wir das benötigen. Also definieren wir für C die Methode einfach neu. Wenn nun eine Instanz von C die Methode Print() aufruft, dann wird unsere neue Methode dafür verwendet.</p>
+
+<pre><code class="language-go">type A struct {
+}
+
+func (a *A) Print() {
+	fmt.Println(&quot;AAAA&quot;)
+}
+
+type B struct {
+	A
+}
+
+type C struct {
+	A
+}
+
+func (c *C) Print() {
+	fmt.Println(&quot;CCC&quot;)
+}
+</code></pre>
+
+<p>Das ganze auch noch einmal im Playground:
+<a href="https://play.golang.org/p/Z0TprdJZ7_">https://play.golang.org/p/Z0TprdJZ7_</a></p>
+
+<p>Auf den ersten Blick ist diese Logik nichts besonderes. Aber wenn man z.B. aus einem Java Umfeld kommt, dann ist es anscheinend nicht leicht, zu erkennen, wann man dieses Pattern gut anwenden kann. Insbesondere beim Testen ist diese Logik hilfreich.</p>
+
+<p>Im folgenden Beispiel lässt sich so ein Typ anlegen, welcher sich alle Queries merken kann und keinen Einfluss auf die DB nimmt.</p>
+
+<pre><code class="language-go">type MockDB struct {
+	externDBPackage.DB
+	Queries []string
+}
+
+func (mdb *MockDB)  Query(query string, args ...interface{}) (*Rows, error) {
+	mdb.Queries = append(mdb.Queries, query)
+	// Do something
+	return &amp;Rows{},nil
+}
+</code></pre>
+
+<p>Ähnliche Lösungen sind möglich, wenn man z.B. vermeiden möchte, dass man in seinen Tests auf das Filesystem schreibt.</p>
 
   </div>
   <div id="disqus_thread"></div>

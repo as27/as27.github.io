@@ -9,6 +9,26 @@
     <atom:link href="https://as27.github.io/categories/link/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Linktipp: William Kennedy über Go</title>
+      <link>https://as27.github.io/blog/2016/12/12/linktipp-william-kennedy-%C3%BCber-go/</link>
+      <pubDate>Mon, 12 Dec 2016 19:28:44 +0100</pubDate>
+      
+      <guid>https://as27.github.io/blog/2016/12/12/linktipp-william-kennedy-%C3%BCber-go/</guid>
+      <description>&lt;p&gt;Ein wirklich toller Vortrag von William Kennedy über Go&amp;rsquo;s Codesmell und Komposition.&lt;/p&gt;
+
+&lt;p&gt;Das Besondere hier sind nicht Teckniken oder Patterns, welche gezeigt werden, sondern William spricht über grundsätzliche Besonderheiten von Go.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Was ist das besondere von Go?&lt;/li&gt;
+&lt;li&gt;Wann ist meine Tests fertig?&lt;/li&gt;
+&lt;li&gt;Wann sollte ich ein Interface definieren?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=7YcLIbG1ekM&#34;&gt;Go Talk &amp;amp; Ask Me Anything With William Kennedy &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Installation von Golang auf dem Raspberry Pi</title>
       <link>https://as27.github.io/blog/2016/05/28/installation-von-golang-auf-dem-raspberry-pi/</link>
       <pubDate>Sat, 28 May 2016 09:59:35 +0200</pubDate>
