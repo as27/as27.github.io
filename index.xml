@@ -6,8 +6,33 @@
     <description>Recent content on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Sun, 05 Mar 2017 12:25:50 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Mar 2017 17:07:37 +0100</lastBuildDate>
     <atom:link href="https://as27.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Feldnamen eines struct</title>
+      <link>https://as27.github.io/blog/2017/03/23/feldnamen-eines-struct/</link>
+      <pubDate>Thu, 23 Mar 2017 17:07:37 +0100</pubDate>
+      
+      <guid>https://as27.github.io/blog/2017/03/23/feldnamen-eines-struct/</guid>
+      <description>&lt;p&gt;Wenn man einmal wissen möchte, welche Elemente ein struct besitzt:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func getFields(i interface{}) []string {
+	var fields []string
+	tempintslice := []int{0}
+	ielements := reflect.TypeOf(i).Elem().NumField()
+	for j := 0; j &amp;lt; ielements; j++ {
+		tempintslice[0] = j
+		f := reflect.TypeOf(i).Elem().FieldByIndex(tempintslice)
+		fields = append(fields, f.Name)
+	}
+	return fields
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://play.golang.org/p/QAgLMIwhyl&#34;&gt;https://play.golang.org/p/QAgLMIwhyl&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Komposition für Anfänger</title>
