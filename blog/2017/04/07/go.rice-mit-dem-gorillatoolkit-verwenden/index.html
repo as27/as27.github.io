@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>go.rice mit dem Gorillatoolkit verwenden &middot; Andreas Schröpfer</title>
+
+  
+  <link rel="stylesheet" href="https://as27.github.io/css/poole.css">
+  <link rel="stylesheet" href="https://as27.github.io/css/hyde.css">
+  <link rel="stylesheet" href="https://as27.github.io/css/poole-overrides.css">
+  <link rel="stylesheet" href="https://as27.github.io/css/hyde-overrides.css">
+  <link rel="stylesheet" href="https://as27.github.io/css/hyde-x.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://as27.github.io/touch-icon-144-precomposed.png">
+  <link href="https://as27.github.io/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="Eine kurze Beschreibung, wie man go.rice in Verbindung mit dem Gorillatoolkit verwenden kann.">
+  <meta name="keywords" content="">
+
+<link rel="stylesheet" href="https://as27.github.io/css/highlight/gruvbox-dark.css">
+<script src="https://as27.github.io/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+  
+</head>
+<body class="theme-base-0d">
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+        <img src="https://www.gravatar.com/avatar/7aa00e82e4289784cbbd55510b28d75d?s=200"
+             alt="gravatar" title="Andreas Schröpfer">
+      
+      <h1>Andreas Schröpfer</h1>
+      <p class="lead">Blog über Go und die Welt</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="https://as27.github.io/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="https://as27.github.io/links/">Links</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="http://github.com/as27"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://as27.github.io/index.xml" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      </li>
+    </ul>
+
+    
+
+    <p>Copyright &copy; 2017 <a href="https://as27.github.io/license/">License</a><br/>
+       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1 class="post-title">go.rice mit dem Gorillatoolkit verwenden</h1>
+    <span class="post-date">Apr 7, 2017 &middot; 1 minute read &middot; <a href="https://as27.github.io/blog/2017/04/07/go.rice-mit-dem-gorillatoolkit-verwenden/#disqus_thread">Comments</a>
+    
+    <br/>
+    <a class="label" href="https://as27.github.io/categories/golang">golang</a><a class="label" href="https://as27.github.io/categories/go.rice">go.rice</a><a class="label" href="https://as27.github.io/categories/gorillatoolkit">gorillatoolkit</a>
+    </span>
+    <p><a href="https://github.com/GeertJohan/go.rice">go.rice</a> ist ein sehr nützliches Tool, um weitere Dateien in die Go App zu packen. Hierfür werden die Textdateien einfach in go Dateien eingefügt. Bei der Verwendung des <a href="http://www.gorillatoolkit.org/pkg/mux">Routers des Gorillatoolkits</a> muss beachtet werden, dass man die Methode <code>PathPrefix()</code> verwendet.</p>
+
+<p>Das ganze sieht dann im Code wie folgt aus:</p>
+
+<pre><code class="language-go">r := mux.NewRouter()
+box := rice.MustFindBox(&quot;html&quot;)
+htmlFiles := http.StripPrefix(&quot;/lib/&quot;, http.FileServer(box.HTTPBox()))
+r.PathPrefix(&quot;/lib/&quot;).Handler(htmlFiles)
+</code></pre>
+
+  </div>
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "as27";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "as27";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</body>
+</html>
+

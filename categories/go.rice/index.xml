@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go und die Welt</title>
+    <link>https://as27.github.io/categories/go.rice/index.xml</link>
+    <description>Recent content on Go und die Welt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <atom:link href="https://as27.github.io/categories/go.rice/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>go.rice mit dem Gorillatoolkit verwenden</title>
+      <link>https://as27.github.io/blog/2017/04/07/go.rice-mit-dem-gorillatoolkit-verwenden/</link>
+      <pubDate>Fri, 07 Apr 2017 12:25:50 +0100</pubDate>
+      
+      <guid>https://as27.github.io/blog/2017/04/07/go.rice-mit-dem-gorillatoolkit-verwenden/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/GeertJohan/go.rice&#34;&gt;go.rice&lt;/a&gt; ist ein sehr nützliches Tool, um weitere Dateien in die Go App zu packen. Hierfür werden die Textdateien einfach in go Dateien eingefügt. Bei der Verwendung des &lt;a href=&#34;http://www.gorillatoolkit.org/pkg/mux&#34;&gt;Routers des Gorillatoolkits&lt;/a&gt; muss beachtet werden, dass man die Methode &lt;code&gt;PathPrefix()&lt;/code&gt; verwendet.&lt;/p&gt;
+
+&lt;p&gt;Das ganze sieht dann im Code wie folgt aus:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;r := mux.NewRouter()
+box := rice.MustFindBox(&amp;quot;html&amp;quot;)
+htmlFiles := http.StripPrefix(&amp;quot;/lib/&amp;quot;, http.FileServer(box.HTTPBox()))
+r.PathPrefix(&amp;quot;/lib/&amp;quot;).Handler(htmlFiles)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
