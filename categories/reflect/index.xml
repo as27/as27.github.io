@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go und die Welt</title>
-    <link>https://as27.github.io/categories/reflect/index.xml</link>
-    <description>Recent content on Go und die Welt</description>
+    <title>Reflect on Go und die Welt</title>
+    <link>https://as27.github.io/categories/reflect/</link>
+    <description>Recent content in Reflect on Go und die Welt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <atom:link href="https://as27.github.io/categories/reflect/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2017 17:07:37 +0100</lastBuildDate>
+    
+	<atom:link href="https://as27.github.io/categories/reflect/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Feldnamen eines struct</title>
@@ -14,23 +17,8 @@
       <pubDate>Thu, 23 Mar 2017 17:07:37 +0100</pubDate>
       
       <guid>https://as27.github.io/blog/2017/03/23/feldnamen-eines-struct/</guid>
-      <description>&lt;p&gt;Wenn man einmal wissen möchte, welche Elemente ein struct besitzt:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func getFields(i interface{}) []string {
-	var fields []string
-	tempintslice := []int{0}
-	ielements := reflect.TypeOf(i).Elem().NumField()
-	for j := 0; j &amp;lt; ielements; j++ {
-		tempintslice[0] = j
-		f := reflect.TypeOf(i).Elem().FieldByIndex(tempintslice)
-		fields = append(fields, f.Name)
-	}
-	return fields
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://play.golang.org/p/QAgLMIwhyl&#34;&gt;https://play.golang.org/p/QAgLMIwhyl&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Wenn man einmal wissen möchte, welche Elemente ein struct besitzt:
+func getFields(i interface{}) []string { var fields []string tempintslice := []int{0} ielements := reflect.TypeOf(i).Elem().NumField() for j := 0; j &amp;lt; ielements; j++ { tempintslice[0] = j f := reflect.TypeOf(i).Elem().FieldByIndex(tempintslice) fields = append(fields, f.Name) } return fields }  https://play.golang.org/p/QAgLMIwhyl</description>
     </item>
     
   </channel>

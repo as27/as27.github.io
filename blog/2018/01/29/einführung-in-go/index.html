@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>Komposition für Anfänger &middot; Andreas Schröpfer</title>
+  <title>Einführung in Go &middot; Andreas Schröpfer</title>
 
   
   <link rel="stylesheet" href="https://as27.github.io/css/poole.css">
@@ -78,58 +78,19 @@
 
 <div class="content container">
   <div class="post">
-    <h1 class="post-title">Komposition für Anfänger</h1>
-    <span class="post-date">Mar 5, 2017 &middot; 2 minute read &middot; <a href="https://as27.github.io/blog/2017/03/05/komposition-f%C3%BCr-anf%C3%A4nger/#disqus_thread">Comments</a>
+    <h1 class="post-title">Einführung in Go</h1>
+    <span class="post-date">Jan 29, 2018 &middot; 1 minute read &middot; <a href="https://as27.github.io/blog/2018/01/29/einf%C3%BChrung-in-go/#disqus_thread">Comments</a>
     
     <br/>
-    <a class="label" href="https://as27.github.io/categories/golang">golang</a><a class="label" href="https://as27.github.io/categories/komposition">komposition</a>
+    <a class="label" href="https://as27.github.io/categories/golang">golang</a><a class="label" href="https://as27.github.io/categories/lernen">lernen</a><a class="label" href="https://as27.github.io/categories/udemy">Udemy</a>
     </span>
-    <p>Ein ganz einfaches Beispiel soll zeigen, was alles mit der Komposition in Go möglich ist. Nehmen wir mal folgendes Beispiel an.</p>
+    <p>Während der Weihnachtsfeiertage hatte ich Zeit <a href="https://www.udemy.com/einfuhrung-in-go/">meinen ersten Udemy Kurs</a> fertig zustellen. Der Kurs ist für Anfänger gedacht, welche einen schnellen Einstieg in Go benötigen. Es gibt viele Beispielaufgaben, welche über den <a href="https://play.golang.org/">Go Playground</a> alle gelöst werden können.</p>
 
-<p>Es gibt einen Typ A, welches eine Methode Print() besitzt. Typ B hat in seiner Definition auf Typ A im Bauch. Wäre Go nun objekt-orientiert, würde man auch sagen, B erbt alles von A. Dadurch kann eine Instanz von B eigentlich auch alles was A kann.</p>
+<p>Die Übungsaufgaben beinhalten die meisten Sprachelemente. Der Kurs hat zum Ziel die Syntax von Go näher zu bringen. Es soll ein Grundlagenkurs sein, welche Personen ohne große Go Erfahrung belegen können, um die Sprachsyntax zu verstehen.</p>
 
-<p>Diese Erkenntnis ist erstmal nichts besonderes. Auf die gleiche Weise wie B definieren wir nun Typ C. Für Typ C ist nun aber die Funktion Print() nicht so wie wir das benötigen. Also definieren wir für C die Methode einfach neu. Wenn nun eine Instanz von C die Methode Print() aufruft, dann wird unsere neue Methode dafür verwendet.</p>
+<p>Also falls Du jemanden kennst, der gerne in Go reinschnuppern möchte, dann wäre der Kurs sicher zu empfehlen.</p>
 
-<pre><code class="language-go">type A struct {
-}
-
-func (a *A) Print() {
-	fmt.Println(&quot;AAAA&quot;)
-}
-
-type B struct {
-	A
-}
-
-type C struct {
-	A
-}
-
-func (c *C) Print() {
-	fmt.Println(&quot;CCC&quot;)
-}
-</code></pre>
-
-<p>Das ganze auch noch einmal im Playground:
-<a href="https://play.golang.org/p/Z0TprdJZ7_">https://play.golang.org/p/Z0TprdJZ7_</a></p>
-
-<p>Auf den ersten Blick ist diese Logik nichts besonderes. Aber wenn man z.B. aus einem Java Umfeld kommt, dann ist es anscheinend nicht leicht, zu erkennen, wann man dieses Pattern gut anwenden kann. Insbesondere beim Testen ist diese Logik hilfreich.</p>
-
-<p>Im folgenden Beispiel lässt sich so ein Typ anlegen, welcher sich alle Queries merken kann und keinen Einfluss auf die DB nimmt.</p>
-
-<pre><code class="language-go">type MockDB struct {
-	externDBPackage.DB
-	Queries []string
-}
-
-func (mdb *MockDB)  Query(query string, args ...interface{}) (*Rows, error) {
-	mdb.Queries = append(mdb.Queries, query)
-	// Do something
-	return &amp;Rows{},nil
-}
-</code></pre>
-
-<p>Ähnliche Lösungen sind möglich, wenn man z.B. vermeiden möchte, dass man in seinen Tests auf das Filesystem schreibt.</p>
+<p>Zur Einführung gibts <strong><a href="https://www.udemy.com/einfuhrung-in-go/?couponCode=AS27_20_FUER_10">20 Gutscheine: Einführung in Go für 10 Euro.</a></strong></p>
 
   </div>
   <div id="disqus_thread"></div>

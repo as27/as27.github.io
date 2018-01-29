@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Udemy on Go und die Welt</title>
+    <link>https://as27.github.io/categories/udemy/</link>
+    <description>Recent content in Udemy on Go und die Welt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 29 Jan 2018 15:36:50 +0100</lastBuildDate>
+    
+	<atom:link href="https://as27.github.io/categories/udemy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Einführung in Go</title>
+      <link>https://as27.github.io/blog/2018/01/29/einf%C3%BChrung-in-go/</link>
+      <pubDate>Mon, 29 Jan 2018 15:36:50 +0100</pubDate>
+      
+      <guid>https://as27.github.io/blog/2018/01/29/einf%C3%BChrung-in-go/</guid>
+      <description>Während der Weihnachtsfeiertage hatte ich Zeit meinen ersten Udemy Kurs fertig zustellen. Der Kurs ist für Anfänger gedacht, welche einen schnellen Einstieg in Go benötigen. Es gibt viele Beispielaufgaben, welche über den Go Playground alle gelöst werden können.
+Die Übungsaufgaben beinhalten die meisten Sprachelemente. Der Kurs hat zum Ziel die Syntax von Go näher zu bringen. Es soll ein Grundlagenkurs sein, welche Personen ohne große Go Erfahrung belegen können, um die Sprachsyntax zu verstehen.</description>
+    </item>
+    
+  </channel>
+</rss>

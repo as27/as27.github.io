@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://as27.github.io/</loc>
-    <lastmod>2017-04-07T12:25:50+01:00</lastmod>
+    <loc>https://as27.github.io/blog/2018/01/29/einf%C3%BChrung-in-go/</loc>
+    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
   </url>
   
   <url>
@@ -79,6 +80,161 @@
   <url>
     <loc>https://as27.github.io/blog/2016/05/15/golang-und-die-zeit-das-magische-datum/</loc>
     <lastmod>2016-05-15T15:37:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/code-for-hamburg/</loc>
+    <lastmod>2016-11-26T16:04:16+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/coding-da-vinci/</loc>
+    <lastmod>2016-11-26T11:28:44+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/decorator-pattern/</loc>
+    <lastmod>2016-05-19T10:58:32+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/</loc>
+    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/go.rice/</loc>
+    <lastmod>2017-04-07T12:25:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/golang/</loc>
+    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/gophercon/</loc>
+    <lastmod>2016-05-18T19:30:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/gorillatoolkit/</loc>
+    <lastmod>2017-04-07T12:25:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/hamburg/</loc>
+    <lastmod>2016-11-26T16:04:16+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/hh-beteiligungsbericht/</loc>
+    <lastmod>2016-11-26T16:04:16+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/http/</loc>
+    <lastmod>2016-05-17T10:07:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/komposition/</loc>
+    <lastmod>2017-03-05T12:25:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/lernen/</loc>
+    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/link/</loc>
+    <lastmod>2016-12-12T19:28:44+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/mvc-pattern/</loc>
+    <lastmod>2016-05-17T22:40:53+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/notes/</loc>
+    <lastmod>2016-06-05T19:05:37+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/opendata/</loc>
+    <lastmod>2016-11-26T16:04:16+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/pattern/</loc>
+    <lastmod>2016-05-19T10:58:32+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/post/</loc>
+    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/raspberry-pi/</loc>
+    <lastmod>2016-05-28T09:59:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/reflect/</loc>
+    <lastmod>2017-03-23T17:07:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/rest/</loc>
+    <lastmod>2016-05-17T22:40:53+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/tests/</loc>
+    <lastmod>2016-05-17T10:07:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/time/</loc>
+    <lastmod>2016-05-15T15:37:02+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/udemy/</loc>
+    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

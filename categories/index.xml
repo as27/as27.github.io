@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Go und die Welt</title>
+    <link>https://as27.github.io/categories/</link>
+    <description>Recent content in Categories on Go und die Welt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    
+	<atom:link href="https://as27.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code for Hamburg</title>
+      <link>https://as27.github.io/categories/code-for-hamburg/</link>
+      <pubDate>Sat, 26 Nov 2016 16:04:16 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/code-for-hamburg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding Da Vinci</title>
+      <link>https://as27.github.io/categories/coding-da-vinci/</link>
+      <pubDate>Sat, 26 Nov 2016 11:28:44 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/coding-da-vinci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decorator Pattern</title>
+      <link>https://as27.github.io/categories/decorator-pattern/</link>
+      <pubDate>Thu, 19 May 2016 10:58:32 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/decorator-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go.rice</title>
+      <link>https://as27.github.io/categories/go.rice/</link>
+      <pubDate>Fri, 07 Apr 2017 12:25:50 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/go.rice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://as27.github.io/categories/golang/</link>
+      <pubDate>Mon, 29 Jan 2018 15:36:50 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gophercon</title>
+      <link>https://as27.github.io/categories/gophercon/</link>
+      <pubDate>Wed, 18 May 2016 19:30:23 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/gophercon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gorillatoolkit</title>
+      <link>https://as27.github.io/categories/gorillatoolkit/</link>
+      <pubDate>Fri, 07 Apr 2017 12:25:50 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/gorillatoolkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hamburg</title>
+      <link>https://as27.github.io/categories/hamburg/</link>
+      <pubDate>Sat, 26 Nov 2016 16:04:16 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/hamburg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hh Beteiligungsbericht</title>
+      <link>https://as27.github.io/categories/hh-beteiligungsbericht/</link>
+      <pubDate>Sat, 26 Nov 2016 16:04:16 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/hh-beteiligungsbericht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Http</title>
+      <link>https://as27.github.io/categories/http/</link>
+      <pubDate>Tue, 17 May 2016 10:07:30 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Komposition</title>
+      <link>https://as27.github.io/categories/komposition/</link>
+      <pubDate>Sun, 05 Mar 2017 12:25:50 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/komposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lernen</title>
+      <link>https://as27.github.io/categories/lernen/</link>
+      <pubDate>Mon, 29 Jan 2018 15:36:50 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/lernen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Link</title>
+      <link>https://as27.github.io/categories/link/</link>
+      <pubDate>Mon, 12 Dec 2016 19:28:44 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/link/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mvc Pattern</title>
+      <link>https://as27.github.io/categories/mvc-pattern/</link>
+      <pubDate>Tue, 17 May 2016 22:40:53 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/mvc-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notes</title>
+      <link>https://as27.github.io/categories/notes/</link>
+      <pubDate>Sun, 05 Jun 2016 19:05:37 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opendata</title>
+      <link>https://as27.github.io/categories/opendata/</link>
+      <pubDate>Sat, 26 Nov 2016 16:04:16 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/opendata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pattern</title>
+      <link>https://as27.github.io/categories/pattern/</link>
+      <pubDate>Thu, 19 May 2016 10:58:32 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://as27.github.io/categories/raspberry-pi/</link>
+      <pubDate>Sat, 28 May 2016 09:59:35 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflect</title>
+      <link>https://as27.github.io/categories/reflect/</link>
+      <pubDate>Thu, 23 Mar 2017 17:07:37 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/reflect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest</title>
+      <link>https://as27.github.io/categories/rest/</link>
+      <pubDate>Tue, 17 May 2016 22:40:53 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tests</title>
+      <link>https://as27.github.io/categories/tests/</link>
+      <pubDate>Tue, 17 May 2016 10:07:30 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/tests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time</title>
+      <link>https://as27.github.io/categories/time/</link>
+      <pubDate>Sun, 15 May 2016 15:37:02 +0200</pubDate>
+      
+      <guid>https://as27.github.io/categories/time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Udemy</title>
+      <link>https://as27.github.io/categories/udemy/</link>
+      <pubDate>Mon, 29 Jan 2018 15:36:50 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/udemy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
