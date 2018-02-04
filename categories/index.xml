@@ -49,7 +49,7 @@
     <item>
       <title>Golang</title>
       <link>https://as27.github.io/categories/golang/</link>
-      <pubDate>Mon, 29 Jan 2018 15:36:50 +0100</pubDate>
+      <pubDate>Sun, 04 Feb 2018 20:44:26 +0100</pubDate>
       
       <guid>https://as27.github.io/categories/golang/</guid>
       <description></description>
@@ -97,6 +97,33 @@
       <pubDate>Tue, 17 May 2016 10:07:30 +0200</pubDate>
       
       <guid>https://as27.github.io/categories/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interface</title>
+      <link>https://as27.github.io/categories/interface/</link>
+      <pubDate>Sun, 04 Feb 2018 20:44:26 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Io.reader</title>
+      <link>https://as27.github.io/categories/io.reader/</link>
+      <pubDate>Sun, 04 Feb 2018 20:44:26 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/io.reader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Io.writer</title>
+      <link>https://as27.github.io/categories/io.writer/</link>
+      <pubDate>Sun, 04 Feb 2018 20:44:26 +0100</pubDate>
+      
+      <guid>https://as27.github.io/categories/io.writer/</guid>
       <description></description>
     </item>
     

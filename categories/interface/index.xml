@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interface on Go und die Welt</title>
+    <link>https://as27.github.io/categories/interface/</link>
+    <description>Recent content in Interface on Go und die Welt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 04 Feb 2018 20:44:26 +0100</lastBuildDate>
+    
+	<atom:link href="https://as27.github.io/categories/interface/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mein io.Reader und io.Writer Interface</title>
+      <link>https://as27.github.io/blog/2018/02/04/mein-io.reader-und-io.writer-interface/</link>
+      <pubDate>Sun, 04 Feb 2018 20:44:26 +0100</pubDate>
+      
+      <guid>https://as27.github.io/blog/2018/02/04/mein-io.reader-und-io.writer-interface/</guid>
+      <description>Fangen wir mal ganz praktisch mit folgender Funktion an:
+import ( &amp;quot;io&amp;quot; ) func lesWas(r io.Reader) { // ... }  Die Funktion lesWas nimmt einen io.Reader als Input und macht etwas damit. Wenn ich diese Funktion definiere und wirklich nur den io.Reader verwende, dann muss trotzdem das komplette io Paket importiert werden. Da dieses Paket zur Go Standartlibrary gehört und nicht groß ist, ist dies nicht weiter schlimm. Aber einfach mal angeommen, dass ich als Ziel habe alle nicht notwendigen Imports zu eliminieren, dann kann ich das auf einfache Weise umsetzen.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://as27.github.io/blog/2018/02/04/mein-io.reader-und-io.writer-interface/</loc>
+    <lastmod>2018-02-04T20:44:26+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://as27.github.io/blog/2018/01/29/einf%C3%BChrung-in-go/</loc>
     <lastmod>2018-01-29T15:36:50+01:00</lastmod>
   </url>
@@ -107,7 +112,7 @@
   
   <url>
     <loc>https://as27.github.io/</loc>
-    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
+    <lastmod>2018-02-04T20:44:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,7 +124,7 @@
   
   <url>
     <loc>https://as27.github.io/categories/golang/</loc>
-    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
+    <lastmod>2018-02-04T20:44:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,6 +155,24 @@
   <url>
     <loc>https://as27.github.io/categories/http/</loc>
     <lastmod>2016-05-17T10:07:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/interface/</loc>
+    <lastmod>2018-02-04T20:44:26+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/io.reader/</loc>
+    <lastmod>2018-02-04T20:44:26+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://as27.github.io/categories/io.writer/</loc>
+    <lastmod>2018-02-04T20:44:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -197,7 +220,7 @@
   
   <url>
     <loc>https://as27.github.io/post/</loc>
-    <lastmod>2018-01-29T15:36:50+01:00</lastmod>
+    <lastmod>2018-02-04T20:44:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
