@@ -84,18 +84,18 @@
     <br/>
     <a class="label" href="https://as27.github.io/categories/golang">golang</a><a class="label" href="https://as27.github.io/categories/interface">interface</a><a class="label" href="https://as27.github.io/categories/io.reader">io.Reader</a><a class="label" href="https://as27.github.io/categories/io.writer">io.Writer</a>
     </span>
-    <p>Fangen wir mal ganz praktisch mit folgender Funktion an:</p>
+    <p>Fangen wir mal ganz einfach mit einer Funktion an:</p>
 
 <pre><code class="language-Go">import (
 	&quot;io&quot;
 )
 
-func lesWas(r io.Reader) {
+func leseWas(r io.Reader) {
     // ...
 }
 </code></pre>
 
-<p>Die Funktion lesWas nimmt einen <code>io.Reader</code> als Input und macht etwas damit. Wenn ich diese Funktion definiere und wirklich nur den <code>io.Reader</code> verwende, dann muss trotzdem das komplette <code>io</code> Paket importiert werden. Da dieses Paket zur Go Standartlibrary gehört und nicht groß ist, ist dies nicht weiter schlimm. Aber einfach mal angeommen, dass ich als Ziel habe alle nicht notwendigen Imports zu eliminieren, dann kann ich das auf einfache Weise umsetzen.</p>
+<p>Die Funktion leseWas nimmt einen <code>io.Reader</code> als Input und macht etwas damit. Wenn ich diese Funktion definiere und wirklich nur den <code>io.Reader</code> verwende, dann muss trotzdem das komplette <code>io</code> Paket importiert werden. Da dieses Paket zur Go Standartlibrary gehört und nicht groß ist, ist dies nicht weiter schlimm. Aber einfach mal angeommen, dass ich als Ziel habe alle nicht notwendigen Imports zu eliminieren, dann kann ich das auf einfache Weise umsetzen.</p>
 
 <p>An der Stelle kann man Rob Pike mit seinen <a href="https://go-proverbs.github.io/">Go Proverbs</a> zitieren:</p>
 
@@ -103,18 +103,18 @@ func lesWas(r io.Reader) {
 <p>A little copying is better than a little dependency.</p>
 </blockquote>
 
-<p>Anstatt das io Paket zu importieren definiere ich einfach meinen eigenen Reader, welcher exakt dem <code>io.Reader</code> entspricht. Wenn die beiden Definitionen gleich sind implementiert jeder <code>io.Reader</code> auch unseren eigenen Reader. D.h. der folgende Code entspricht eins zu eins dem oberen:</p>
+<p>Anstatt das io Paket zu importieren, definiere ich einfach meinen eigenen Reader, welcher exakt dem <code>io.Reader</code> entspricht. Wenn die beiden Definitionen gleich sind implementiert jeder <code>io.Reader</code> auch unseren eigenen Reader. D.h. der folgende Code entspricht eins zu eins dem oberen:</p>
 
 <pre><code class="language-Go">type Reader interface {
 	Read(p []byte) (n int, err error)
 }
 
-func lesWas(r Reader) {
+func leseWas(r Reader) {
     // ...
 }
 </code></pre>
 
-<p>So habe ich auch einfache Weise eine Abhängigkeit abgebaut. Mein Binary file wird dadurch kleiner und mein Code ist unabhängig bzgl. Änderungen des io Pakets. Das schöne an dieser einfachen Technik ist, dass ich dies für alle Interfaces anwenden kann. Denn es ist durchaus sinnvoll, dass ich keine externen Interfaces als Input für meine Funktionen verwende. Neben der Abhängigkeit leidet auch die lesbarkeit des Codes.</p>
+<p>So habe ich auf einfache Weise eine Abhängigkeit abgebaut. Mein Binary file wird dadurch kleiner und mein Code ist unabhängig bzgl. Änderungen des io Pakets. Das schöne an dieser einfachen Technik ist, dass ich dies für alle Interfaces anwenden kann. Denn es ist durchaus sinnvoll, dass ich keine externen Interfaces als Input für meine Funktionen verwende. Neben der Abhängigkeit leidet auch die lesbarkeit des Codes.</p>
 
 <p>Bei <code>io.Reader</code> und <code>io.Writer</code> gilt dies natürlich nur bedingt. Da diese beiden Interfaces eigentlich schon zur Sprache gehören. Zusätzlich ist das io Paket auch sehr schlank. Lediglich 9 kB konnte ich durch die Optimierung einsparen.</p>
 
