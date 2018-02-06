@@ -17,8 +17,9 @@
       <pubDate>Sun, 04 Feb 2018 20:44:26 +0100</pubDate>
       
       <guid>https://as27.github.io/blog/2018/02/04/mein-io.reader-und-io.writer-interface/</guid>
-      <description>Fangen wir mal ganz einfach mit einer Funktion an:
-import ( &amp;quot;io&amp;quot; ) func leseWas(r io.Reader) { // ... }  Die Funktion leseWas nimmt einen io.Reader als Input und macht etwas damit. Wenn ich diese Funktion definiere und wirklich nur den io.Reader verwende, dann muss trotzdem das komplette io Paket importiert werden. Da dieses Paket zur Go Standartlibrary gehört und nicht groß ist, ist dies nicht weiter schlimm. Aber einfach mal angeommen, dass ich als Ziel habe alle nicht notwendigen Imports zu eliminieren, dann kann ich das auf einfache Weise umsetzen.</description>
+      <description>Dieser Post beschäftigt sich mit einer Möglichkeit des Refactorings, wenn externe Interfaces als Input von Funktionen verwendet werden. In dem Beispiel verwende ich den io.Reader da dieser sehr einfach aufgebaut ist und außerdem dürfte dieser Reader bereits von jedem Gopher schon öfters verwendet worden sein.
+Fangen wir mal ganz einfach mit einer Funktion an:
+import ( &amp;quot;io&amp;quot; ) func leseWas(r io.Reader) { // ... }  Die Funktion leseWas nimmt einen io.</description>
     </item>
     
     <item>

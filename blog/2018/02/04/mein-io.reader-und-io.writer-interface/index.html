@@ -84,7 +84,9 @@
     <br/>
     <a class="label" href="https://as27.github.io/categories/golang">golang</a><a class="label" href="https://as27.github.io/categories/interface">interface</a><a class="label" href="https://as27.github.io/categories/io.reader">io.Reader</a><a class="label" href="https://as27.github.io/categories/io.writer">io.Writer</a>
     </span>
-    <p>Fangen wir mal ganz einfach mit einer Funktion an:</p>
+    <p>Dieser Post beschäftigt sich mit einer Möglichkeit des Refactorings, wenn externe Interfaces als Input von Funktionen verwendet werden. In dem Beispiel verwende ich den <code>io.Reader</code> da dieser sehr einfach aufgebaut ist und außerdem dürfte dieser Reader bereits von jedem Gopher schon öfters verwendet worden sein.</p>
+
+<p>Fangen wir mal ganz einfach mit einer Funktion an:</p>
 
 <pre><code class="language-Go">import (
 	&quot;io&quot;
@@ -95,7 +97,7 @@ func leseWas(r io.Reader) {
 }
 </code></pre>
 
-<p>Die Funktion leseWas nimmt einen <code>io.Reader</code> als Input und macht etwas damit. Wenn ich diese Funktion definiere und wirklich nur den <code>io.Reader</code> verwende, dann muss trotzdem das komplette <code>io</code> Paket importiert werden. Da dieses Paket zur Go Standartlibrary gehört und nicht groß ist, ist dies nicht weiter schlimm. Aber einfach mal angeommen, dass ich als Ziel habe alle nicht notwendigen Imports zu eliminieren, dann kann ich das auf einfache Weise umsetzen.</p>
+<p>Die Funktion leseWas nimmt einen <code>io.Reader</code> als Input und macht etwas damit. Wenn ich diese Funktion definiere und wirklich nur den <code>io.Reader</code> verwende, dann muss trotzdem das komplette <code>io</code> Paket importiert werden. Da dieses Paket zur Go Library gehört und nicht groß ist, ist dies nicht weiter schlimm. Aber einfach mal angeommen, dass ich als Ziel habe alle nicht notwendigen Imports zu eliminieren, dann kann ich das auf einfache Weise umsetzen.</p>
 
 <p>An der Stelle kann man Rob Pike mit seinen <a href="https://go-proverbs.github.io/">Go Proverbs</a> zitieren:</p>
 
